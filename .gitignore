@@ -1,0 +1,7 @@
+# Generated site
+public
+resources/
+
+# IDE
+.idea/
+.vscode
