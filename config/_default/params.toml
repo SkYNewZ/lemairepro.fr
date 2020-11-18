@@ -63,6 +63,7 @@ appointment_url = ""
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
+  {icon = "mastodon", icon_pack = "fab", name = "Fediverse", link = "https://mstdn.social/@skynewz"},
   {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/skynewz_"},
   {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/skynewz"},
   {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://t.me/Gragysan"},
@@ -97,7 +98,7 @@ zoom = 15
 #   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
 plugins_css = []
-plugins_js  = ["intergram", "widget"]
+# plugins_js  = ["intergram", "widget", "mastodon"]
 
 ############################
 ## Advanced options       ##

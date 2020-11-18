@@ -19,11 +19,25 @@ date_format = "January 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "DevOps Engineer at CAPGEMINI for Adeo services"
+  title = "Cloud Engineer at CAPGEMINI for Adeo services"
   company = "Adeo"
   location = "Ronchin"
   date_start = "2019-10-07"
-  description = ""
+  description = """
+  * Partie intégrante de l'équipe référent GCP au seins d'Adeo, Leroy Merlin, Bricoman étroitement liée aux équipes Google intervenant chez ADEO
+  * Fournir de manière industrialisée des projets sur la GCP livrés avec un ensemble de fonctionnalités facilitant son utilisation au sein de ADEO
+
+    - API REST en Python/Flask pour l'utilisateur
+    - Terraform et Terraform Cloud pour le provisionning des projets
+    - Code de l'infrastructure sur Github, avec intégration continue pour les tests mis en place avec Kitchen et Inspec
+    - Projets inter-connectés avec les data centers ADEO
+  
+  * Accompagner le client au quotidien dans son parcours au sein de la GCP
+  * Lead Dev et référent Git
+  * Méthodes agiles
+  
+  > Google Cloud Platform, Terraform, Python, Go, Docker, Kitchen (integration tool for developing and testing infrastructure code), Jira
+  """
 
 [[experience]]
   title = "Intégrateur applicatif en alternance"

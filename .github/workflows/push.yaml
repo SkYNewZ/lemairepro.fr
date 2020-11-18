@@ -18,7 +18,7 @@ jobs:
       - name: Build 🔧
         uses: docker://skynewz/hugo:v0.54.0
         with:
-          args: --minify --gc
+          args: --gc
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.2

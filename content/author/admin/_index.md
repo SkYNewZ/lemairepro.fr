@@ -9,7 +9,7 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "DevOps engineer at CAPGEMINI"
+role = "Cloud engineer at CAPGEMINI"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -55,6 +55,11 @@ interests = [
   link = "#contact"  # For a direct email link, use "mailto:test@example.org".
 
 [[social]]
+  icon = "mastodon"
+  icon_pack = "fab"
+  link = "https://mstdn.social/@skynewz"
+
+[[social]]
   icon = "twitter"
   icon_pack = "fab"
   link = "https://twitter.com/skynewz_"
@@ -76,6 +81,9 @@ interests = [
 #   icon_pack = "ai"
 #   link = "files/cv.pdf"
 
-+++Just graduated, I'm at **CAPGEMINI** as DevOps engineer, passionate since childhood about the world of computing sciences.
++++
+{{% mastodon "https://mstdn.social/@skynewz" %}}
+
+I'm at **CAPGEMINI** as DevOps engineer, passionate since childhood about the world of computing sciences.
 
 My skills are quite varied because I like to try and discover everything but I am currently based on two pillars: back-end development and the DevOps philosophy.
